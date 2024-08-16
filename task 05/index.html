@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tesk 05</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <script src="script.js"></script>
+    <style>
+    *{
+
+
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+    }
+body{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding-top: 4vh;
+
+}
+.resp{
+    border: 2px dashed black;
+    padding: 20px;
+}
+input, button{
+    padding: 10px;
+    
+}
+
+    </style>
+</head>
+<body>
+<h1>tesk05</h1>
+<br>
+<input type="slk" id="clientBirth" placeholder="Insert the year">
+<br>
+<br>
+<button onclick="checkMajority()"> verify</button>
+<br>
+<br>
+<br>
+<div class="resp">
+<p id="result"></p>
+<p id="clientAge"></p>
+
+</div>
+  
+</body>
+</html>

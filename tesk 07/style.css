@@ -1,0 +1,29 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;  
+
+}
+
+.light{
+background-color: rgb(142, 142, 142);
+
+}
+html{
+background-color: aliceblue;
+
+
+}
+body{
+background-color: transparent !important;    
+padding: 20px;
+color: navy !important;
+
+}
+.lightBody{
+background-color: transparent !important;
+padding: 20px;
+padding: rgb(107, 172, 42) !important;
+
+
+}
